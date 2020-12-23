@@ -44,8 +44,8 @@ class Home extends React.Component {
                             Person Details
                         </div>
                         <div>
-                            <Link to="" className="add-button">
-                                <img src={addUser} alt="add" /> Add User
+                            <Link to="/register" className="add-button">
+                                <img className="add-img" src={addUser} alt="add" /> Add User
                             </Link>
                         </div>
                     </div>

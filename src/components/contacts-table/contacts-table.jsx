@@ -36,9 +36,7 @@ const ContactTable = (props) => {
                 </tbody>
             </table>
         </div>
-
     );
 }
-
 
 export default withRouter(ContactTable);
